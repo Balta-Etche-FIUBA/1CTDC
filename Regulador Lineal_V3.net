@@ -1,0 +1,49 @@
+* C:\Users\mathe\Documents\GitHub\1CTDC\Regulador Lineal_V3.asc
+Q1 N001 N001 P001 0 BD140
+Q2 N004 N001 P002 0 BD140
+Q3 N001 vref1 vceq8 0 BD139
+Q4 N004 N006 vceq8 0 BD139
+Q5 Vcq5 N002 Veq5 0 BD140
+Q6 N002 N004 Vcq5 0 BD139
+VIN Veq5 0 {VINDC} AC {VINAC}
+R8 Veq5 P001 100
+R9 Veq5 P002 100
+C3 Vo 0 1µ
+R2 N005 0 1k
+R4 Vo Vcq5 2.2
+Q7 N004 N005 Vo 0 BD139
+R5 Vo N006 470
+R6 N006 0 470
+Q8 vceq8 vbe10 0 0 BD139
+Q10 vbe10 vbe10 0 0 BD139
+RL Vo 0 {RL}
+R1 vref1 vbe10 390
+V2 vref1 0 2.5
+R10 Vcq5 N005 488
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\mathe\AppData\Local\LTspice\lib\cmp\standard.bjt
+.op
+* Mido regulacion de linea
+.meas OP Vo1rl FIND V(Vo) AT 12
+.meas OP Vo2rl FIND V(Vo) AT 24
+.meas OP RegLin PARAM ((Vo2rl-Vo1rl)/12)
+* Mido regulacion de carga
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 5
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 5
+* Mido eficiencia
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+.param VINDC=9.5
+.param VINAC 1
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+.step param VINDC 5 30 0.5
+.MODEL BD139 NPN ( IS=2.3985E-13 BF=244.9 NF=1.0 BR=78.11 NR=1.007 ISE=1.0471E-14 NE=1.2 ISC=1.9314E-11 NC=1.45 VAF=98.5 VAR=7.46 IKF=1.1863 IKR=0.1445 RB=2.14 RBM=0.001 IRB=0.031 RE=0.0832 RC=0.01 CJE=2.92702E-10 VJE=0.67412 MJE=0.3300 FC=0.5 CJC=4.8831E-11 VJC=0.5258 MJC=0.3928 XCJC=0.5287 XTB=1.1398 EG=1.2105 XTI=3.0 Vceo=80 Icrating=3 mfg=fairchild)
+.MODEL BD140 PNP ( IS=2.9537E-13 BF=201.4 NF=1.0 BR=23.765 NR=1.021 ISE=1.8002E-13 NE=1.5 ISC=7.0433p NC=1.38 VAF=137.0 VAR=8.41 IKF=1.0993 IKR=0.10 RB=1.98 RBM=0.01 IRB=0.011 RE=0.1109 RC=0.01 CJE=2.1982E-10 VJE=0.7211 MJE=0.3685 FC=0.5 CJC=6.8291E-11 VJC=0.5499 MJC=0.3668 XCJC=0.5287 XTB=1.4883 EG=1.2343 XTI=3.0 Vceo=80 Icrating=3 mfg=fairchild)
+;step param RL 1u 100 0.5
+* para foldback
+.param RL =10
+* Para regulacion de linea
+.backanno
+.end
