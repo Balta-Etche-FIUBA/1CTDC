@@ -1,0 +1,9 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP4_Buck\Lazo de control\Regulador_buck_copia.net
+Start Time: Fri May 23 12:37:11 2025
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP4_Buck\Lazo de control\Regulador_buck_copia.net(24): Number of nodes (8) does not match number of pins (5) of sub-circuit "lm324".
+X§U8 N003 N002 VCC 0 Va EESchema-LIBRARY Version 2.3 LM324
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP4_Buck\Lazo de control\Regulador_buck_copia.net(25): Number of nodes (8) does not match number of pins (5) of sub-circuit "lm324".
+X§U6 N002 N001 VCC 0 Vb EESchema-LIBRARY Version 2.3 LM324
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
