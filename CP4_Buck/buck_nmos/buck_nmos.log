@@ -1,0 +1,16 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP4_Buck\buck_nmos\buck_nmos.net
+Start Time: Sat May 24 00:03:04 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 3.282 seconds.
+
+Files loaded:
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP4_Buck\buck_nmos\buck_nmos.net
+C:\Users\Gonzalo\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP4_Buck\buck_nmos\IRFZ44N.sub
+
