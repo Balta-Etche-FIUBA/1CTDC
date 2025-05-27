@@ -500,10 +500,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "pwm_pcb.net",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Salida/",
+      "pos_files": "Salida/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pwm_pcb.step",
       "svg": "",
       "vrml": ""
     },
