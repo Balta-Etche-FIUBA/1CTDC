@@ -5,7 +5,7 @@ WINDOW 0 0 -72 Bottom 2
 WINDOW 3 0 72 Top 2
 SYMATTR Value IR2104
 SYMATTR Prefix X
-SYMATTR ModelFile C:\Users\mathe\Documents\Ing. Electronica\1C 2025\C2\IR2104.lib
+SYMATTR ModelFile C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\IR2104.lib
 PIN -64 -48 LEFT 8
 PINATTR PinName LO
 PINATTR SpiceOrder 1
