@@ -1,0 +1,13 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento6_verificacion del error.net
+Start Time: Tue Jun 17 11:26:55 2025
+Options: gmin=1e-11  abstol=1e-9  reltol=0.09  cshunt=1e-15
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento6_verificacion del error.net(40): This sub-circuit name is not defined.
+X§U7 N008 Vref 0 VCCPWM error TL072 ADTL082
+                                   ^^^^^^^^
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento6_verificacion del error.net(41): This sub-circuit name is not defined.
+X§U4 N009 N002 VCCPWM 0 N002 TL072 ADTL082
+                                  ^^^^^^^^
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento6_verificacion del error.net(42): This sub-circuit name is not defined.
+X§U6 N002 N001 VCCPWM 0 Triangular TL072 ADTL082
+                                        ^^^^^^^^

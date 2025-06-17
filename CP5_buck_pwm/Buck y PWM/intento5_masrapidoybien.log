@@ -1,6 +1,6 @@
 LTspice 24.1.7 for Windows
 Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento5_masrapidoybien.net
-Start Time: Mon Jun 16 21:17:41 2025
+Start Time: Tue Jun 17 12:19:42 2025
 Options: gmin=1e-11  abstol=1e-10  reltol=0.06  cshunt=1e-15
 solver = Normal
 Maximum thread count: 12
@@ -17,7 +17,7 @@ Instance "u1:x_gd_template:x_lo_stage:M_LO_NMOS": Length shorter than recommende
 Direct Newton iteration for .op point succeeded.
 
 Simulation stopped by user.
-Total elapsed time: 496.554 seconds.
+Total elapsed time: 5.688 seconds.
 
 Files loaded:
 C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento5_masrapidoybien.net
