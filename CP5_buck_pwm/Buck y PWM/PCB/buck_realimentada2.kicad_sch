@@ -4302,6 +4302,28 @@
 			)
 		)
 	)
+	(global_label "sampling"
+		(shape input)
+		(at 25.4 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bbd3411-05bd-4be0-b0e6-dca56230dc6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.9726 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HO"
 		(shape input)
 		(at 161.29 71.12 180)
@@ -4535,6 +4557,28 @@
 		(uuid "3c0bcca0-0a68-4249-a512-1c82213d03cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.828 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "cuadrada"
+		(shape input)
+		(at 25.4 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c49b19a-1eba-449c-85fe-80f503111b45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.154 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,6 +7949,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 20.32 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee884cd-14c5-473d-8117-a0896fa078ec")
+		(property "Reference" "J14"
+			(at 20.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_cuadrada"
+			(at 20.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe703a1-b93e-4cad-aea7-165437fd74e2")
+		)
+		(instances
+			(project "buck_realimentada2"
+				(path "/ee1f104a-e02d-4db7-8607-e80e4c529ac6"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 123.19 0)
 		(unit 1)
@@ -8318,6 +8427,71 @@
 			(project "buck_realimentada"
 				(path "/ee1f104a-e02d-4db7-8607-e80e4c529ac6"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 20.32 195.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87617f3c-3fdb-48cc-8168-756ada04a6f6")
+		(property "Reference" "J15"
+			(at 20.32 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_sampling"
+			(at 20.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 20.32 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710db515-0e32-4f68-add1-d143e7aa0b81")
+		)
+		(instances
+			(project "buck_realimentada2"
+				(path "/ee1f104a-e02d-4db7-8607-e80e4c529ac6"
+					(reference "J15")
 					(unit 1)
 				)
 			)
