@@ -1,0 +1,6 @@
+LTspice 24.1.7 for Windows
+Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck.net
+Start Time: Mon Jun 23 12:40:58 2025
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck.net(28): No such instance.
+.dc Vduty 0.2 0.9 0.01
+    ^^^^^
