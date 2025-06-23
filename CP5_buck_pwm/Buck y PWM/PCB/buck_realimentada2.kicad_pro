@@ -499,8 +499,8 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "buck_realimentada2.net",
-      "plot": "LCI/",
+      "netlist": "",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -609,7 +609,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
