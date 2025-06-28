@@ -1,6 +1,230 @@
 LTspice 24.1.7 for Windows
 Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck.net
-Start Time: Mon Jun 23 12:40:58 2025
-C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck.net(28): No such instance.
-.dc Vduty 0.2 0.9 0.01
-    ^^^^^
+Start Time: Fri Jun 27 19:29:07 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Increasing initial diagonal Gmin to 100000
+Increasing initial diagonal Gmin to 1e+06
+Initial Gmin=1e+06 failed
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Could not converge to DC with sources off!
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Source Step = 0.0473485%
+Source Step = 0.0769413%
+Source Step = 0.106534%
+Source Step = 0.136127%
+vernier = 0.00146484
+Source Step = 0.173118%
+Source Step = 0.217507%
+Source Step = 0.261896%
+Source Step = 0.306286%
+Source Step = 0.350675%
+vernier = 0.00219727
+Source Step = 0.403942%
+Source Step = 0.470526%
+Source Step = 0.537109%
+Source Step = 0.603693%
+Source Step = 0.670277%
+vernier = 0.0032959
+Source Step = 0.746848%
+Source Step = 0.846724%
+Source Step = 0.9466%
+Source Step = 1.04648%
+Source Step = 1.14635%
+vernier = 0.00494385
+Source Step = 1.25621%
+Source Step = 1.40603%
+Source Step = 1.55584%
+Source Step = 1.70566%
+Source Step = 1.85547%
+vernier = 0.00741577
+Source Step = 2.01277%
+Source Step = 2.23749%
+Source Step = 2.46221%
+Source Step = 2.68693%
+Source Step = 2.91165%
+Source Step = 3.13637%
+vernier = 0.0111237
+Source Step = 3.47346%
+Source Step = 3.81054%
+Source Step = 4.14762%
+Source Step = 4.4847%
+Source Step = 4.82178%
+vernier = 0.0166855
+Source Step = 5.31054%
+Source Step = 5.81616%
+Source Step = 6.32179%
+Source Step = 6.82741%
+Source Step = 7.33303%
+vernier = 0.0250282
+Source Step = 8.0409%
+Source Step = 8.09304%
+Source Step = 8.14044%
+Source Step = 8.18784%
+Source Step = 8.23524%
+Source Step = 8.28265%
+Source Step = 8.33005%
+Source Step = 8.37745%
+Source Step = 8.42485%
+Source Step = 8.47225%
+Source Step = 8.51966%
+vernier = 0.0023464
+Source Step = 8.58128%
+Source Step = 8.65238%
+Source Step = 8.72348%
+Source Step = 8.79459%
+Source Step = 8.86569%
+vernier = 0.00351959
+Source Step = 8.95457%
+Source Step = 9.06122%
+Source Step = 9.16788%
+Source Step = 9.27453%
+Source Step = 9.38119%
+vernier = 0.00527939
+Source Step = 9.50917%
+Source Step = 9.66915%
+Source Step = 9.82913%
+Source Step = 9.86513%
+Source Step = 9.90513%
+Source Step = 9.94512%
+Source Step = 9.98512%
+Source Step = 10.0251%
+vernier = 0.00197977
+Source Step = 10.0811%
+Source Step = 10.1411%
+Source Step = 10.2011%
+Source Step = 10.2611%
+Source Step = 10.3211%
+vernier = 0.00296966
+Source Step = 10.4021%
+Source Step = 10.4921%
+Source Step = 10.582%
+Source Step = 10.672%
+Source Step = 10.762%
+vernier = 0.00445449
+Source Step = 10.879%
+Source Step = 11.014%
+Source Step = 11.149%
+Source Step = 11.284%
+Source Step = 11.419%
+vernier = 0.00668173
+Source Step = 11.5877%
+Source Step = 11.7902%
+Source Step = 11.9926%
+Source Step = 12.1951%
+Source Step = 12.3976%
+vernier = 0.0100226
+Source Step = 12.6406%
+Source Step = 12.9443%
+Source Step = 13.248%
+Source Step = 13.5517%
+Source Step = 13.8554%
+vernier = 0.0150339
+Source Step = 14.2047%
+Source Step = 14.6603%
+Source Step = 15.1158%
+Source Step = 15.5714%
+Source Step = 16.027%
+vernier = 0.0225508
+Source Step = 16.5281%
+Source Step = 17.2115%
+Source Step = 17.8948%
+Source Step = 18.5782%
+Source Step = 19.2615%
+vernier = 0.0338263
+Source Step = 19.9791%
+Source Step = 21.0041%
+Source Step = 22.0292%
+Source Step = 23.0542%
+Source Step = 24.0792%
+Source Step = 25.1043%
+vernier = 0.0507394
+Source Step = 26.6418%
+Source Step = 28.1794%
+Source Step = 29.7169%
+Source Step = 31.2545%
+Source Step = 32.7921%
+vernier = 0.0761091
+Source Step = 35.0215%
+Source Step = 37.3278%
+Source Step = 39.6342%
+Source Step = 41.9405%
+Source Step = 44.2469%
+vernier = 0.114164
+Source Step = 47.4757%
+Source Step = 50.9352%
+Source Step = 54.3947%
+Source Step = 57.8542%
+Source Step = 61.3137%
+vernier = 0.171245
+Source Step = 65.9841%
+Source Step = 71.1733%
+Source Step = 76.3626%
+Source Step = 81.5518%
+Source Step = 86.7411%
+vernier = 0.256868
+Source Step = 93.4871%
+Source Step = 95.0561%
+Source Step = 95.0865%
+Source Step = 95.1169%
+Source Step = 95.1473%
+Source Step = 95.1777%
+vernier = 0.00150509
+Source Step = 95.2096%
+Source Step = 95.2552%
+Source Step = 95.3008%
+Source Step = 95.3464%
+Source Step = 95.3921%
+Source Step = 95.4377%
+vernier = 0.00225763
+Source Step = 95.5061%
+Source Step = 95.5745%
+Source Step = 95.6429%
+Source Step = 95.7113%
+Source Step = 95.7797%
+vernier = 0.00338645
+Source Step = 95.8789%
+Source Step = 95.9815%
+Source Step = 96.0842%
+Source Step = 96.1868%
+Source Step = 96.2894%
+vernier = 0.00507967
+Source Step = 96.4331%
+Source Step = 96.587%
+Source Step = 96.7409%
+Source Step = 96.8949%
+Source Step = 97.0488%
+vernier = 0.0076195
+Source Step = 97.2566%
+Source Step = 97.4875%
+Source Step = 97.7184%
+Source Step = 97.9493%
+Source Step = 98.1802%
+vernier = 0.0114293
+Source Step = 98.4803%
+Source Step = 98.8267%
+Source Step = 99.173%
+Source Step = 99.5194%
+Source Step = 99.8657%
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 1.093 seconds.
+
+Files loaded:
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck.net
+C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\average.lib
+C:\Users\Gonzalo\AppData\Local\LTspice\lib\sub\LTC.lib
+
