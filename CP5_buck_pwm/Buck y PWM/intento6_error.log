@@ -1,7 +1,7 @@
 LTspice 24.1.7 for Windows
 Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\intento6_error.net
-Start Time: Sun Jun 29 23:12:43 2025
-Options: gmin=1e-11  abstol=1e-10  reltol=0.009  cshunt=1e-15
+Start Time: Sun Jul  6 14:24:16 2025
+Options: gmin=1e-11  abstol=1e-10  reltol=0.006  cshunt=1e-15
 solver = Normal
 Maximum thread count: 12
 tnom = 27
