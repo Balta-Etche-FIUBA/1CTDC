@@ -1,6 +1,6 @@
 LTspice 24.1.7 for Windows
 Circuit: C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck_2.net
-Start Time: Sun Jul  6 14:18:47 2025
+Start Time: Sun Jul  6 19:08:02 2025
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -129,7 +129,7 @@ Source Step = 99.2034%
 vernier = 0.0601356
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.468 seconds.
+Total elapsed time: 0.906 seconds.
 
 Files loaded:
 C:\Users\Gonzalo\Documents\GitHub\Circuitos II\1CTDC\CP5_buck_pwm\Buck y PWM\Promediado\promediado-20250614T142845Z-1-001\promediado\Conpensacion buck_2.net
