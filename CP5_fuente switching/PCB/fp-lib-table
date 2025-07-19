@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Downloads")(type "KiCad")(uri "C:/Users/lococ/Downloads")(options "")(descr ""))
+  (lib (name "MBR20H200CT")(type "KiCad")(uri "C:/Users/lococ/Downloads/MBR20H200CT")(options "")(descr ""))
+  (lib (name "inductor")(type "KiCad")(uri "${KIPRJMOD}/inductor.pretty")(options "")(descr ""))
+)
